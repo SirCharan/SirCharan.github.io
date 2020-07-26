@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SEO on Charandeep Kapoor</title>
+    <link>/tags/seo/</link>
+    <description>Recent content in SEO on Charandeep Kapoor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Repeating Keywords Won&#39;t Help SEO</title>
+      <link>/posts/1.-repeating-keywords/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/1.-repeating-keywords/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Future Of Data Science In Digital Marketing</title>
+      <link>/posts/5.-futureofds/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/5.-futureofds/</guid>
+      <description>Before I start, let me admit something honestly&amp;hellip;
+The original title of this article was going to be-
+ &amp;ldquo;How I Performed a Proper Keyword Research And Optimized A GoogleAds Campaign Using Data Science and a Bit of Machine Learning for the largest financial lead generating company in the world-The Investoo Group&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>

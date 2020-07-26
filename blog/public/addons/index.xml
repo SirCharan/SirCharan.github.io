@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Addons on Charandeep Kapoor</title>
+    <link>https://www.example.com/addons/</link>
+    <description>Recent content in Addons on Charandeep Kapoor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Apr 2020 02:07:31 +0600</lastBuildDate>
+    
+	<atom:link href="https://www.example.com/addons/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Author</title>
+      <link>https://www.example.com/author/</link>
+      <pubDate>Mon, 06 Apr 2020 02:07:31 +0600</pubDate>
+      
+      <guid>https://www.example.com/author/</guid>
+      <description>I am John Doe. And I can confirm that this is the best theme ever!</description>
+    </item>
+    
+    <item>
+      <title>Admin Panel</title>
+      <link>https://www.example.com/admin/</link>
+      <pubDate>Mon, 06 Apr 2020 02:07:30 +0600</pubDate>
+      
+      <guid>https://www.example.com/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>All Sections</title>
+      <link>https://www.example.com/sections/</link>
+      <pubDate>Mon, 06 Apr 2020 02:07:30 +0600</pubDate>
+      
+      <guid>https://www.example.com/sections/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

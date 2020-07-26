@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    How to Use a Python Code to Scrape Internshala | 
+    
+    Charandeep Kapoor</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="A brief description of Hugo Shortcodes
+    ">
+
+
+<meta property="og:title" content="How To Use a Python Code To Scrape Internshala" />
+<meta property="og:description" content="A brief description of Hugo Shortcodes" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.example.com/posts/3.-intershaal1/" />
+<meta property="article:published_time" content="2020-04-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-04-14T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How To Use a Python Code To Scrape Internshala"/>
+<meta name="twitter:description" content="A brief description of Hugo Shortcodes"/>
+
+<meta itemprop="name" content="How To Use a Python Code To Scrape Internshala">
+<meta itemprop="description" content="A brief description of Hugo Shortcodes">
+<meta itemprop="datePublished" content="2020-04-14T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-04-14T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="541">
+
+
+
+<meta itemprop="keywords" content="Web Scraping," />
+<link rel="canonical" href="https://www.example.com/posts/3.-intershaal1/" />
+
+<link rel="icon" type="image/png" href="https://www.example.comimage/favicon.ico">
+
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/bulma.min.css">
+
+
+
+
+
+<script src=/js/ramium.js></script>
+<link rel="stylesheet" href=/css/ramium.css>
+
+
+
+
+
+</head>
+
+<body><nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href=/>
+      
+      <strong>Charandeep Kapoor </strong>
+      
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+      data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      
+      
+      <a class="navbar-item" href="/">Home</a>
+      
+      
+      
+      <a class="navbar-item" href="/posts/">Posts</a>
+      
+      
+      
+      <a class="navbar-item" href="/author/">Author</a>
+      
+      
+    </div>
+
+    <div class="navbar-end">
+      
+
+      
+    </div>
+  </div>
+</nav><div class="columns is-centered">
+        <div id="page-body" class="column is-7">
+
+<div class="content blog">
+    <h1>How to Use a Python Code to Scrape Internshala</h1>
+
+    <div id="infobar" class="level is-mobile">
+        <div class="level-left">
+            
+            <div class="level-item">
+                <p class="subtitle info date">Apr 14, 2020
+                </p>
+            </div>
+            
+
+            <div class="level-item">
+                <p class="subtitle info">
+                    3 mins read
+                </p>
+            </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+            <div class="tags">
+                
+                <a class="tag is-dark is-rounded" href="/tags/web-scraping">Web Scraping</a>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="tags is-hidden-desktop">
+        
+        <a class="tag is-dark is-rounded" href="/tags/web-scraping">Web scraping</a>
+        
+    </div>
+
+    <div class="blog-text">
+        
+
+        <h2 id="and-automatically-apply-to-each-internship-above-5k-in-your-preferred-job-profile">And Automatically Apply To Each Internship Above 5K In Your Preferred Job Profile</h2>
+<p>| Part 1-of-2</p>
+<h2 id="import-the-necessary-libraries">Import The Necessary Libraries</h2>
+<p>Selenium is one of the most popular packages used for Web-Scraping, along with BeautifulSoup. Apart from simple Web-Scraping, Selenium provides the added advantage of being able to simulate the human behavior of scrolling and clicking.</p>
+<p>Pandas is a common library used for data management. The Time and Random libraries are used to automatically delay and schedule tasks so that the website is not able to know that it&rsquo;s being operated by a bot.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> selenium <span style="color:#f92672">import</span> webdriver
+<span style="color:#f92672">from</span> bs4 <span style="color:#f92672">import</span> BeautifulSoup
+<span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
+<span style="color:#f92672">import</span> time
+<span style="color:#f92672">import</span> random</code></pre></div>
+<p>You may need to install some of these libraries with the pip install command.</p>
+<h2 id="open-an-automated-chrome-window-using-webdriver">Open An Automated Chrome Window Using Webdriver</h2>
+<p>You will need to install ChromeDriver, based on the version of your Chrome Browser, and then provide the path to its directory.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">internshala <span style="color:#f92672">=</span> webdriver<span style="color:#f92672">.</span>Chrome(<span style="color:#e6db74">&#34;path/chromedriver_win32/chromedriver.exe&#34;</span>)</code></pre></div>
+<h2 id="open-internshala">Open Internshala</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">internshala<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;https://internshala.com&#39;</span>)</code></pre></div>
+<p>Add alt text
+No alt text provided for this image</p>
+<h2 id="understanding-the-html-elements">Understanding The HTML Elements</h2>
+<p>You will now need to access individual HTML elements on the page. To do so, simply select any field you want, i.e. stipend and select the text and right-click over it and click &ldquo;Inspect&rdquo;.</p>
+<p>Add alt text
+No alt text provided for this image</p>
+<p>Hover your mouse pointer over the HTML code and you will see the corresponding parts of the page highlighted. These are the HTML elements corresponding to each of the text fields on the pages.</p>
+<p>Add alt text
+No alt text provided for this image</p>
+<h2 id="scraping-data-using-selenium">Scraping Data Using Selenium</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">Stipend<span style="color:#f92672">=</span>internshala<span style="color:#f92672">.</span>find_elements_by_xpath(<span style="color:#e6db74">&#39;//span[@class=&#34;{}&#34;]&#39;</span><span style="color:#f92672">.</span>format(<span style="color:#e6db74">&#34;stipend&#34;</span>))</code></pre></div>
+<p>This command will return a list of Selenium web.elements to &ldquo;Stipend&rdquo;.</p>
+<p>Add alt text
+No alt text provided for this image</p>
+<p>To get the stipend amount, you need to:</p>
+<ol>
+<li>Access the first element of the list</li>
+<li>Convert it to text by using .text method</li>
+<li>Split to get the stipend amount as a number</li>
+</ol>
+<p>Add alt text
+No alt text provided for this image</p>
+<p>The whole process can be simplified and written in one line as:-</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">stipend_amount<span style="color:#f92672">=</span>internshala<span style="color:#f92672">.</span>find_elements_by_xpath(<span style="color:#e6db74">&#39;//span[@class={}&#34;]&#39;</span><span style="color:#f92672">.</span>format(<span style="color:#e6db74">&#34;stipend&#34;</span>))[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>text<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#39; &#39;</span>)[<span style="color:#ae81ff">0</span>]</code></pre></div>
+<p>Similar commands for each of the fields &ldquo;Profile&rdquo;, &ldquo;Company Name&rdquo;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">profile_role<span style="color:#f92672">=</span>internshala<span style="color:#f92672">.</span>find_elements_by_xpath(<span style="color:#e6db74">&#39;//div[@class=&#34;{}&#34;]&#39;</span><span style="color:#f92672">.</span>format(<span style="color:#e6db74">&#34;heading_4_5 profile&#34;</span>))[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>text
+
+company_name<span style="color:#f92672">=</span>internshala<span style="color:#f92672">.</span>find_elements_by_xpath(<span style="color:#e6db74">&#39;//div[@class=&#34;{}&#34;]&#39;</span><span style="color:#f92672">.</span>format(<span style="color:#e6db74">&#34;heading_6 company_name&#34;</span>))[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>text</code></pre></div>
+<p>You can use a For Loop and .append method to append every element in text form to a new list.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(stipend):
+stipend<span style="color:#f92672">.</span>append(stipend_amount[i])
+role<span style="color:#f92672">.</span>append(profile_role[i])
+company<span style="color:#f92672">.</span>append(company_name[i])</code></pre></div>
+<p>Using the above 3 lists, we can create a DataFrame, with the same Titles</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#34;Stipend Amount&#34;</span>:stipend, <span style="color:#e6db74">&#34;Profile Role&#34;</span>:role, <span style="color:#e6db74">&#34;Company Name&#34;</span>:company}
+df<span style="color:#f92672">=</span>pd<span style="color:#f92672">.</span>DataFrame(df)</code></pre></div>
+<p>Add alt text
+No alt text provided for this image</p>
+<p>You can sort the list by the stipend amount. This will sort the whole DataFrame in decreasing order starting from the maximum stipend.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">.</span>sort_values(by<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;Stipend Amount&#39;</span>], ascending<span style="color:#f92672">=</span>False)</code></pre></div>
+<p>Then save it in an excel file</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">.</span>to_excel(<span style="color:#e6db74">&#39;path/file.xlsx&#39;</span>)</code></pre></div>
+<p>Add alt text
+No alt text provided for this image</p>
+<p>Or a CSV</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">.</span>to_csv(<span style="color:#e6db74">&#39;path/file.csv&#39;</span>)</code></pre></div>
+<p>Once in Excel, you can sort them in any way you want and add filters that Internshala doesn&rsquo;t have on their platform.</p>
+<p>PS: Had to divide this post into 2 parts due to lack of space. The second part of this post will contain how to automatically apply and will be out next Friday the 19th, 5 PM.</p>
+<p>Connect or &ldquo;Follow&rdquo; me to make sure you don&rsquo;t miss it. I will upload the full working code on GitHub soon.</p>
+
+    </div>
+</div><div id="social-media-share" class="has-text-centered">
+	<p><i>Sharing is caring!</i></p>
+	<br>
+	
+	<div class="share-buttons">
+	    <a  href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.example.com%2fposts%2f3.-intershaal1%2f"
+	        onclick="socialMediaPopUp(this.href, '', 500, 500); return false;"
+	        title="Share on Facebook. Opens in a new window.">
+	        <img src=/img/icons/45px/facebook.png>
+	    </a>
+
+	    <a  href="https://twitter.com/intent/tweet?text=How%20To%20Use%20a%20Python%20Code%20To%20Scrape%20Internshala&url=https%3a%2f%2fwww.example.com%2fposts%2f3.-intershaal1%2f"
+	        onclick="socialMediaPopUp(this.href, '', 500, 500); return false;"
+	        title="Share on Twitter. Opens in a new window." >
+	        <img src=/img/icons/45px/twitter.png>
+	    </a>
+
+		<a  href="http://www.reddit.com/submit?url=https%3a%2f%2fwww.example.com%2fposts%2f3.-intershaal1%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Reddit. Opens in a new window." >
+	        <img src=/img/icons/45px/reddit.png>
+	    </a>
+
+	    <a  href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.example.com%2fposts%2f3.-intershaal1%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Pinterest. Opens in a new window." >
+	        <img src=/img/icons/45px/pinterest.png>
+	    </a>
+
+	    <a  href="http://www.tumblr.com/share/link?url=https%3a%2f%2fwww.example.com%2fposts%2f3.-intershaal1%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Tumblr. Opens in a new window." >
+	        <img src=/img/icons/45px/tumblr.png>
+	    </a>
+
+		<a  href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.example.com%2fposts%2f3.-intershaal1%2f
+			&title=How%20To%20Use%20a%20Python%20Code%20To%20Scrape%20Internshala&summary=And%20Automatically%20Apply%20To%20Each%20Internship%20Above%205K%20In%20Your%20Preferred%20Job%20Profile%20%7c%20Part%201-of-2%0aImport%20The%20Necessary%20Libraries%20Selenium%20is%20one%20of%20the%20most%20popular%20packages%20used%20for%20Web-Scraping%2c%20along%20with%20BeautifulSoup.%20Apart%20from%20simple%20Web-Scraping%2c%20Selenium%20provides%20the%20added%20advantage%20of%20being%20able%20to%20simulate%20the%20human%20behavior%20of%20scrolling%20and%20clicking.&source=rafed123.github.io"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on LinkedIn. Opens in a new window." >
+	        <img src=/img/icons/45px/linkedin.png>
+	    </a>
+
+	    <a  href="mailto:?subject=How%20To%20Use%20a%20Python%20Code%20To%20Scrape%20Internshala&amp;body=Check out this site https%3a%2f%2fwww.example.com%2fposts%2f3.-intershaal1%2f"
+	        title="Share via Email. Opens in a new window." >
+	        <img src=/img/icons/45px/mail.png>
+	    </a>
+	</div>
+</div>
+
+
+<br>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = '';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+        </div>
+    </div>
+
+<footer class="footer has-background-dark">
+    <div class="content has-text-centered has-text-white">
+        <p>
+            © 2020 Ramium. Powered by
+            <a class="has-text-light" href="https://github.com/gohugoio/hugo" target="_blank">
+            Hugo</a>. Theme
+            <a class="has-text-light" href="https://github.com/rafed123/ramium/" target="_blank">
+                Ramium.
+            </a>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>
