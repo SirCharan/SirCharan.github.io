@@ -1,17 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://sex.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://sex.com/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://sex.com/</loc>
-  </url>
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://seowithcharan.com/</loc>
+  <lastmod>2020-08-03T10:39:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://seowithcharan.com/articles/index.html</loc>
+  <lastmod>2020-08-03T10:39:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seowithcharan.com/articles/data-science-in-marketing-and-seo.html</loc>
+  <lastmod>2020-08-03T10:39:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seowithcharan.com/articles/repeating-keywords-doesnt-help-seo.html</loc>
+  <lastmod>2020-08-03T10:39:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seowithcharan.com/articles/internshala-webscraping-1.html</loc>
+  <lastmod>2020-08-03T10:39:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seowithcharan.com/articles/internshala-webscraping-2.html</loc>
+  <lastmod>2020-08-03T10:39:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 </urlset>
