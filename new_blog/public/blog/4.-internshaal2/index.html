@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>How To Use a Python Code To Scrape Internshala - Part 2 | codex</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="A brief guide to setup KaTeX">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="How To Use a Python Code To Scrape Internshala - Part 2" />
+  <meta name="twitter:description" content="A brief guide to setup KaTeX"/>
+  <meta name="twitter:site" content="https://twitter.com/&lt;your handle&gt;" />
+  <meta name="twitter:creator" content="https://twitter.com/&lt;your handle&gt;" />
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/post.min.2cb93c91050d1853bf971cc31e00122edd6e0f405aa1de3b7f8ef67ea3b5a79a.css" integrity="sha256-LLk8kQUNGFO/lxzDHgASLt1uD0Baod47f472fqO1p5o="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/seowithcharan.com"
+      },
+      "articleSection" : "blog",
+      "name" : "How To Use a Python Code To Scrape Internshala - Part 2",
+      "headline" : "How To Use a Python Code To Scrape Internshala - Part 2",
+      "description" : "A brief guide to setup KaTeX",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2020",
+      "datePublished": "2020-04-13 00:00:00 \x2b0000 UTC",
+      "dateModified" : "2020-04-13 00:00:00 \x2b0000 UTC",
+      "url" : "https:\/\/seowithcharan.com\/blog\/4.-internshaal2\/",
+      "wordCount" : "649",
+      "keywords" : ["Blog"]
+    }
+  
+  </script>
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/">about</a>
+      </li>
+    
+      <li>
+        <a  href="/article">article</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+         href="/blog">blog</a>
+      </li>
+    
+      <li>
+        <a  href="/">CK</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">How To Use a Python Code To Scrape Internshala - Part 2</h1>
+            <time datetime="2020-04-13 00:00:00 &#43;0000 UTC" class="post__date"
+            >Apr 13 2020</time>
+          </header>
+          <article class="post__content">
+              
+<h2 id="and-automatically-apply-to-each-internship-above-5k-in-your-preferred-job-profile">And Automatically Apply To Each Internship Above 5K In Your Preferred Job Profile<a class="anchor" href="#and-automatically-apply-to-each-internship-above-5k-in-your-preferred-job-profile">#</a></h2>
+<p>| Part 2-of-2</p>
+<p>If you&rsquo;ve landed here directly, and missed my previous article, take a look at Part 1 here&hellip;</p>
+<p>And if you&rsquo;ve already done that, you must be familiar with this code written below-</p>
+<h2 id="importing-the-libraries">Importing The Libraries<a class="anchor" href="#importing-the-libraries">#</a></h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"> 
+<span style="color:#f92672">from</span> selenium <span style="color:#f92672">import</span> webdriver
+<span style="color:#f92672">from</span> bs4 <span style="color:#f92672">import</span> BeautifulSoup
+<span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
+<span style="color:#f92672">import</span> time
+<span style="color:#f92672">import</span> random </code></pre></div>
+<h2 id="opening-internshala-in-an-automated-chrome-window">Opening Internshala In an Automated Chrome Window<a class="anchor" href="#opening-internshala-in-an-automated-chrome-window">#</a></h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">internshala <span style="color:#f92672">=</span> webdriver<span style="color:#f92672">.</span>Chrome(<span style="color:#e6db74">&#34;path/chromedriver_win32/chromedriver.exe&#34;</span>)
+internshala<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;https://internshala.com&#39;</span>)</code></pre></div>
+<h2 id="scraping-out-the-stipend-company-name-and-profile">Scraping out the Stipend, Company Name and Profile<a class="anchor" href="#scraping-out-the-stipend-company-name-and-profile">#</a></h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">stipend_amount<span style="color:#f92672">=</span>internshala<span style="color:#f92672">.</span>find_elements_by_xpath(<span style="color:#e6db74">&#39;//span[@class={}&#34;]&#39;</span><span style="color:#f92672">.</span>format(<span style="color:#e6db74">&#34;stipend&#34;</span>))[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>text<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#39; &#39;</span>)[<span style="color:#ae81ff">0</span>]
+
+profile_role<span style="color:#f92672">=</span>internshala<span style="color:#f92672">.</span>find_elements_by_xpath(<span style="color:#e6db74">&#39;//div[@class=&#34;{}&#34;]&#39;</span><span style="color:#f92672">.</span>format(<span style="color:#e6db74">&#34;heading_4_5 profile&#34;</span>))[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>text
+
+company_name<span style="color:#f92672">=</span>internshala<span style="color:#f92672">.</span>find_elements_by_xpath(<span style="color:#e6db74">&#39;//div[@class=&#34;{}&#34;]&#39;</span><span style="color:#f92672">.</span>format(<span style="color:#e6db74">&#34;heading_6 company_name&#34;</span>))[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>text</code></pre></div>
+<h2 id="and-saving-them-all-in-a-list">And Saving Them All In a List<a class="anchor" href="#and-saving-them-all-in-a-list">#</a></h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(stipend):
+  stipend<span style="color:#f92672">.</span>append(stipend_amount[i])
+  role<span style="color:#f92672">.</span>append(profile_role[i])
+  company<span style="color:#f92672">.</span>append(company_name[i])</code></pre></div>
+<h2 id="lets-jump-right-into-the-most-interesting-part-now">Let&rsquo;s Jump Right Into The Most Interesting Part Now!<a class="anchor" href="#lets-jump-right-into-the-most-interesting-part-now">#</a></h2>
+<p>We&rsquo;ll be utilizing the real power of Selenium, which is the ability to simulate human behavior!</p>
+<p>But for that, we need to filter out and select the internships we need to apply for.</p>
+<h2 id="filtering-out-internships-of-our-preference">Filtering out Internships of our preference<a class="anchor" href="#filtering-out-internships-of-our-preference">#</a></h2>
+<p>Since we already have the internship details stored in 3 lists from the previous post (namely stipend, role and company) we&rsquo;ll run a for loop over all the internships offered, and since our original target was to automatically apply for every internship above 5k/month, let&rsquo;s create an if statement for that.</p>
+<p>I like to apply for &ldquo;SEO&rdquo;, so I&rsquo;ll create another if to filter that out.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(stipend)):
+  <span style="color:#66d9ef">if</span>(int(stipend[i]<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">5000</span>):
+    <span style="color:#66d9ef">if</span>(role[i]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;SEO&#39;</span>):</code></pre></div>
+<p>But wait a min&hellip;</p>
+<p>There are many stipend amounts which are not in integer format, like the &lsquo;Unpaid&rsquo; and &lsquo;Performance-based&rsquo; ones. You need to take special care of them, or else you&rsquo;ll run the risk of getting an error.</p>
+<p>A very simple way to do this is to use an if statement like-</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"> 
+<span style="color:#66d9ef">if</span>(str(stipend)<span style="color:#f92672">!=</span><span style="color:#e6db74">&#39;Unpaid&#39;</span> <span style="color:#f92672">and</span> int(stipend)<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">5000</span>): </code></pre></div>
+<p>Now that we&rsquo;ve filtered out the internships, lets finally learn how to apply!</p>
+<h2 id="how-to-apply">How To Apply<a class="anchor" href="#how-to-apply">#</a></h2>
+<p>To simulate the human behavior of clicking, simply use the inbuilt .click() method in Selenium.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(stipend)):
+  <span style="color:#66d9ef">if</span>(role[i]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;SEO&#39;</span>):
+    <span style="color:#66d9ef">if</span>(int(stipend[i])<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">5000</span>):
+      company[i]<span style="color:#f92672">.</span>click()</code></pre></div>
+<p>To click on the apply now button, repeat the same process used in the last article. Right-click and inspect to get the HTML element, and then use the .click() method.</p>
+<p>Add alt text
+No alt text provided for this image</p>
+<p>A bit of hit-and-trial would tell you that you have to use index [1] instead of [0].</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">apply_now<span style="color:#f92672">=</span>internshala<span style="color:#f92672">.</span>find_elements_by_xpath(<span style="color:#e6db74">&#39;//div[@class=&#34;{}&#34;]&#39;</span> <span style="color:#f92672">.</span>format(<span style="color:#e6db74">&#34;buttons_container&#34;</span>)
+
+apply_now[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>click()</code></pre></div>
+<p>Repeat the same process to &ldquo;click&rdquo; on the &ldquo;Proceed to application&rdquo; button.</p>
+<p>Add alt text
+No alt text provided for this image</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">application_button<span style="color:#f92672">=</span>internshala<span style="color:#f92672">.</span>find_elements_by_xpath(<span style="color:#e6db74">&#39;//div[@id=&#34;{}&#34;]&#39;</span> <span style="color:#f92672">.</span>format(<span style="color:#e6db74">&#34;application_button&#34;</span>))
+
+
+application_button[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>click()</code></pre></div>
+<p>You can throw in a random sleep function with a random time delay to &ldquo;confuse&rdquo; the website.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">time<span style="color:#f92672">.</span>sleep(random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">5</span>))</code></pre></div>
+<p>This will make it almost impossible to detect that the actions are being performed by a bot!!!
+This function would delay the action by a new random number between 1 and 5 seconds everytime.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">time<span style="color:#f92672">.</span>sleep(random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">5</span>))</code></pre></div>
+<p>You have now reached your final screen.</p>
+<p>Just 2 more clicks, and we&rsquo;re done!</p>
+<p>Select the option &ldquo;Copy from your last Search Engine Optimization (SEO) application &amp; edit&rdquo;.</p>
+<p>Add alt text
+No alt text provided for this image</p>
+<p>Be careful, this time it is an &lsquo;a&rsquo; element instead of a &lsquo;div&rsquo; element, but the process remains the same.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">time<span style="color:#f92672">.</span>sleep(random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">5</span>))
+
+application_text<span style="color:#f92672">=</span>internshala<span style="color:#f92672">.</span>find_elements_by_xpath(<span style="color:#e6db74">&#39;//a[@class=&#34;{}&#34;]&#39;</span><span style="color:#f92672">.</span> format(<span style="color:#e6db74">&#34;copyCoverLetterTitle&#34;</span>))
+
+application_text[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>click()</code></pre></div>
+<p>Finally, click on the submit button to end the show.</p>
+<p>Add alt text
+No alt text provided for this image
+BUT
+But if you&rsquo;ve used the platform before, you&rsquo;ll know a very irritating popup comes up which shows you the &ldquo;Similar internships you may apply to&rdquo;.</p>
+<p>Add alt text
+No alt text provided for this image</p>
+<p>But anyway, a good coder should be able to solve anything, even an &ldquo;UnexpectedAlertPresentException&rdquo; (that&rsquo;s just a fancy name give to the popup which appears, don&rsquo;t worry, just copy).</p>
+<p>So here we go..</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">try</span>:
+  submit<span style="color:#f92672">=</span>internshala<span style="color:#f92672">.</span>find_elements_by_xpath(<span style="color:#e6db74">&#39;//div[@class=&#34;{}&#34;]&#39;</span><span style="color:#f92672">.</span>format(<span style="color:#e6db74">&#34;submit_button_container&#34;</span>))  
+  submit[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>click()
+<span style="color:#66d9ef">except</span> UnexpectedAlertPresentException:
+  time<span style="color:#f92672">.</span>sleep(ra)
+internshala<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;https://internshala.com/internships/matching-preferences&#39;</span>)</code></pre></div>
+<p>And we&rsquo;re done!!!
+For further security, we can try many ways to hide our fingerprints such as auto-proxy switching, multi-threading and auto time-zone change.</p>
+<p>Connect with me so that you don&rsquo;t miss out!</p>
+
+
+              
+                  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    </ul>
+
+ <div class="pagination">
+  
+    <a class="pagination__item" href="https://seowithcharan.com/blog/5.-futureofds/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">The Future Of Data Science In Digital Marketing</span>
+    </a>
+  
+
+  
+    <a class="pagination__item" href="https://seowithcharan.com/blog/3.-intershaal1/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >How To Use a Python Code To Scrape Internshala - Part 1</a>
+    </a>
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+      <a class="social-icons__link" title="Twitter"
+         href="https://twitter.com/%3cyour%20handle%3e"
+         target="_blank" rel="noopener">
+        <div class="social-icons__icon" style="background-image: url('https://seowithcharan.com/svg/twitter.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a class="social-icons__link" title="GitHub"
+         href="https://github.com/%3cyour%20handle%3e"
+         target="_blank" rel="noopener">
+        <div class="social-icons__icon" style="background-image: url('https://seowithcharan.com/svg/github.svg')"></div>
+      </a>
+    
+     
+</div>
+
+            <p>© 2020</p>
+          </footer>
+          </div>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/js/index.min.49e4d8a384357d9b445b87371863419937ede9fa77737522ffb633073aebfa44.js" integrity="sha256-SeTYo4Q1fZtEW4c3GGNBmTft6fp3c3Ui/7YzBzrr&#43;kQ=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+
+
+</body>
+
+</html>
