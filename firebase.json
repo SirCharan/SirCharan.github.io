@@ -5,8 +5,7 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
-    "public": "build",
-    "cleanUrls": true
+    ],
+    "cleanUrls":true
   }
 }
