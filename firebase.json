@@ -6,5 +6,7 @@
       "**/.*",
       "**/node_modules/**"
     ]
+    "public": "build",
+    "cleanUrls": true
   }
 }

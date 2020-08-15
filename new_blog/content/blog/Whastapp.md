@@ -1,6 +1,6 @@
 ---
 title: How WhatsApp Makes Money
-date: 1-2-2020
+date: 2020-08-1
 description: Ever wondered?
 tags: ["Long", "Marketing"]
 ---

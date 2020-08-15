@@ -2,7 +2,7 @@
 title: I have a mission statement
 date: 2020-08-1
 description: Customers first
-tags: ["Advertising", "Marketing"]
+tags: ["Advertising", "Marketing","Short"]
 ---
 
 Always ask what your customers want first...

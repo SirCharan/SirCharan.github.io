@@ -4,7 +4,6 @@ date: 2020-08-7
 description: Binod.
 tags: ["SEO", "Digital Marketing"]
 ---
-# How A Youtube comment made Paytm change its official name on Twitter
 
 Binod.
 
