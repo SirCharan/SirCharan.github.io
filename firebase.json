@@ -6,6 +6,25 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "cleanUrls":true
+    "cleanUrls":true,
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/blog",
+        "destination": "/blog-article/blog/index.html"
+      },
+      {
+        "source": "/portfolio",
+        "destination": "/portfolio.html"
+      },
+      {
+        "source": "/thanks",
+        "destination": "/thanks.html"
+      }
+
+    ]
   }
 }
