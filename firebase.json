@@ -1,44 +1,43 @@
 {
   "hosting": {
     "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=960000"
+          }
+        ]
+      },
+      {
+        "source": "404.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=960000"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      }
     ],
-    "cleanUrls":true,
     "rewrites": [
       {
-        "source": "/",
+        "source": "**",
         "destination": "/index.html"
-      },
-      {
-      "source": "**/*.@(jpg|jpeg|gif|png|svg)",
-      "headers":[{
-      "key":"Cache-Control",
-      "value":"max-age=86400"
-      }]
-      },
-      {
-        "source": "**/*.@(css|js)",
-        "headers":[{
-        "key":"Cache-Control",
-        "value":"max-age=86400"
-        }]
-        },
-      {
-        "source": "/blog",
-        "destination": "/blog-article/blog/index.html"
-      },
-      {
-        "source": "/portfolio",
-        "destination": "/portfolio.html"
-      },
-      {
-        "source": "/thanks",
-        "destination": "/thanks.html"
       }
-
-    ]
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
   }
 }
