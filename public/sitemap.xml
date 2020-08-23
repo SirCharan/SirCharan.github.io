@@ -1,40 +1,119 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://seowithcharan.com/</loc>
-  <lastmod>2020-08-03T10:39:58+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://seowithcharan.com/articles/index.html</loc>
-  <lastmod>2020-08-03T10:39:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://seowithcharan.com/articles/data-science-in-marketing-and-seo.html</loc>
-  <lastmod>2020-08-03T10:39:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://seowithcharan.com/articles/repeating-keywords-doesnt-help-seo.html</loc>
-  <lastmod>2020-08-03T10:39:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://seowithcharan.com/articles/internshala-webscraping-1.html</loc>
-  <lastmod>2020-08-03T10:39:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://seowithcharan.com/articles/internshala-webscraping-2.html</loc>
-  <lastmod>2020-08-03T10:39:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://seowithcharan.com/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/tags/digital-marketing/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/repeating-keywords-wont-help-seo/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/tags/seo/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/tags/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/internshala-scraper-one/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/tags/web-scraping/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/tags/data-science/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/future-of-datascience-in-digital-marketing/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/internshala-scraper-two/</loc>
+    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/tags/advertising/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/find-your-popcorn/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/binod/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/whatsapp/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/fake-20-makes-millions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/i-have-a-mission-statement/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/tags/idea/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/jiomeet-vs-zoom/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/mcdonalds-advertising/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/tags/long/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/tags/marketing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/brand-fails-nokia/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/oyo-tinder/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/naukri-dotcom-advertising/</loc>
+  </url>
+  
+  <url>
+    <loc>https://seowithcharan.com/tags/short/</loc>
+  </url>
+  
 </urlset>
