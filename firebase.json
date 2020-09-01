@@ -13,15 +13,6 @@
         ]
       },
       {
-        "source": "404.html",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=960000"
-          }
-        ]
-      },
-      {
         "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
         "headers": [
           {

@@ -1,6 +1,4 @@
 User-Agent: *
-Disallow: 
-Disallow: /articles/tags/*
-Disallow: /articles/categories/*
+Allow: *
 
 Sitemap: https://seowithcharan.com/sitemap.xml
