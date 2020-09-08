@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>humour on Blog | SEO with Charan.com</title>
+    <title>humour on SEO with Charan.com</title>
     <link>https://seowithcharan.com/tags/humour/</link>
-    <description>Recent content in humour on Blog | SEO with Charan.com</description>
+    <description>Recent content in humour on SEO with Charan.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© {Charandeep Kapoor.}</copyright>
+    <copyright>© {Charandeep Kapoor, 2020}</copyright>
     <lastBuildDate>Sat, 29 Aug 2020 20:27:31 +0530</lastBuildDate>
     
 	<atom:link href="https://seowithcharan.com/tags/humour/index.xml" rel="self" type="application/rss+xml" />
@@ -18,12 +18,8 @@
       <pubDate>Sat, 29 Aug 2020 20:27:31 +0530</pubDate>
       
       <guid>https://seowithcharan.com/blog/binod-youtube-comment/</guid>
-      <description>Binod. A Youtube comment that made the news.
-A Youtube comment that ruled the internet.
-A Youtube comment that made Paytm change its official username on Twitter.
-Binod. Can it get any further? I guess not.
-Where did it all start? Well,
-A popular YouTube channel Slayy Point released a video &amp;ldquo;𝗪𝗵𝘆 𝗜𝗻𝗱𝗶𝗮𝗻 𝗖𝗼𝗺𝗺𝗲𝗻𝘁𝘀 𝗦𝗲𝗰𝘁𝗶𝗼𝗻 𝗶𝘀 𝗚𝗮𝗿𝗯𝗮𝗴𝗲 (𝗕𝗜𝗡𝗢𝗗)&amp;rdquo; showcasing the person by name of Binod Thaur leaving a single comment &amp;ldquo;Binod&amp;rdquo; everywhere.</description>
+      <description>&lt;h4 id=&#34;binod&#34;&gt;Binod.&lt;/h4&gt;
+&lt;p&gt;A Youtube comment that &lt;strong&gt;&lt;em&gt;made the news&lt;/em&gt;.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

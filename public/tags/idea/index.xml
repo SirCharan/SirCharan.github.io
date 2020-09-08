@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>idea on Blog | SEO with Charan.com</title>
+    <title>idea on SEO with Charan.com</title>
     <link>https://seowithcharan.com/tags/idea/</link>
-    <description>Recent content in idea on Blog | SEO with Charan.com</description>
+    <description>Recent content in idea on SEO with Charan.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© {Charandeep Kapoor.}</copyright>
+    <copyright>© {Charandeep Kapoor, 2020}</copyright>
     <lastBuildDate>Sat, 29 Aug 2020 21:04:19 +0530</lastBuildDate>
     
 	<atom:link href="https://seowithcharan.com/tags/idea/index.xml" rel="self" type="application/rss+xml" />

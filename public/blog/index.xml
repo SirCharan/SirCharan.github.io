@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Blog | SEO with Charan.com</title>
+    <title>Blogs on SEO with Charan.com</title>
     <link>https://seowithcharan.com/blog/</link>
-    <description>Recent content in Blogs on Blog | SEO with Charan.com</description>
+    <description>Recent content in Blogs on SEO with Charan.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© {Charandeep Kapoor.}</copyright>
+    <copyright>© {Charandeep Kapoor, 2020}</copyright>
     <lastBuildDate>Sat, 29 Aug 2020 21:05:47 +0530</lastBuildDate>
     
 	<atom:link href="https://seowithcharan.com/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -27,7 +27,7 @@ With almost nil money spent on user acquisition, it has a high market penetratio
     </item>
     
     <item>
-      <title>Repeating Keywords</title>
+      <title>Repeating Keywords Wont Help SEO</title>
       <link>https://seowithcharan.com/blog/repeating-keywords/</link>
       <pubDate>Sat, 29 Aug 2020 21:05:09 +0530</pubDate>
       
@@ -104,12 +104,8 @@ They made fake 20$ bills, placed their company advertisements on it and placed t
       <pubDate>Sat, 29 Aug 2020 20:27:31 +0530</pubDate>
       
       <guid>https://seowithcharan.com/blog/binod-youtube-comment/</guid>
-      <description>Binod. A Youtube comment that made the news.
-A Youtube comment that ruled the internet.
-A Youtube comment that made Paytm change its official username on Twitter.
-Binod. Can it get any further? I guess not.
-Where did it all start? Well,
-A popular YouTube channel Slayy Point released a video &amp;ldquo;𝗪𝗵𝘆 𝗜𝗻𝗱𝗶𝗮𝗻 𝗖𝗼𝗺𝗺𝗲𝗻𝘁𝘀 𝗦𝗲𝗰𝘁𝗶𝗼𝗻 𝗶𝘀 𝗚𝗮𝗿𝗯𝗮𝗴𝗲 (𝗕𝗜𝗡𝗢𝗗)&amp;rdquo; showcasing the person by name of Binod Thaur leaving a single comment &amp;ldquo;Binod&amp;rdquo; everywhere.</description>
+      <description>&lt;h4 id=&#34;binod&#34;&gt;Binod.&lt;/h4&gt;
+&lt;p&gt;A Youtube comment that &lt;strong&gt;&lt;em&gt;made the news&lt;/em&gt;.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -122,6 +118,17 @@ A popular YouTube channel Slayy Point released a video &amp;ldquo;𝗪𝗵𝘆 �
 Nokia. They were the number 1 mobile phone brand a while back, and in 2007, more than 50% of all phones sold were Nokia!
 The most strongest, sturdiest and best phone the world had ever seen.
 They had the world at their feet.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://seowithcharan.com/blog/seo-magic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://seowithcharan.com/blog/seo-magic/</guid>
+      <description>Untitled Type: Article
+I recently had a client, HenryHarvin who had a HUGE website, and by huge, I mean having more than 4800 webpages! Most of the pages were various course pages and blog pages. Having a good Technical SEO becomes very important for websites with such a large number of webpages, and can cause serious losses in traffic and rankings if it is not structured properly.
+As I embarked upon the task on 6th May 2020, this website&amp;rsquo;s Seobility Technical Score was only 28!</description>
     </item>
     
   </channel>

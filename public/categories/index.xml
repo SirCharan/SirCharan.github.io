@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Blog | SEO with Charan.com</title>
+    <title>Categories on SEO with Charan.com</title>
     <link>https://seowithcharan.com/categories/</link>
-    <description>Recent content in Categories on Blog | SEO with Charan.com</description>
+    <description>Recent content in Categories on SEO with Charan.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© {Charandeep Kapoor.}</copyright>
+    <copyright>© {Charandeep Kapoor, 2020}</copyright>
     
 	<atom:link href="https://seowithcharan.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
