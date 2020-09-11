@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {Charandeep Kapoor, 2020}</copyright>
-    <lastBuildDate>Thu, 10 Sep 2020 02:37:27 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2020 22:24:28 +0530</lastBuildDate>
     
 	<atom:link href="https://seowithcharan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>advertising</title>
       <link>https://seowithcharan.com/tags/advertising/</link>
-      <pubDate>Thu, 10 Sep 2020 02:37:27 +0530</pubDate>
+      <pubDate>Fri, 11 Sep 2020 22:24:28 +0530</pubDate>
       
       <guid>https://seowithcharan.com/tags/advertising/</guid>
       <description></description>
@@ -24,9 +24,18 @@
     <item>
       <title>marketing</title>
       <link>https://seowithcharan.com/tags/marketing/</link>
-      <pubDate>Thu, 10 Sep 2020 02:37:27 +0530</pubDate>
+      <pubDate>Fri, 11 Sep 2020 22:24:28 +0530</pubDate>
       
       <guid>https://seowithcharan.com/tags/marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>case-study</title>
+      <link>https://seowithcharan.com/tags/case-study/</link>
+      <pubDate>Thu, 10 Sep 2020 03:02:51 +0530</pubDate>
+      
+      <guid>https://seowithcharan.com/tags/case-study/</guid>
       <description></description>
     </item>
     
@@ -45,15 +54,6 @@
       <pubDate>Thu, 10 Sep 2020 00:41:06 +0530</pubDate>
       
       <guid>https://seowithcharan.com/tags/humour/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>case-study</title>
-      <link>https://seowithcharan.com/tags/case-study/</link>
-      <pubDate>Thu, 10 Sep 2020 00:40:40 +0530</pubDate>
-      
-      <guid>https://seowithcharan.com/tags/case-study/</guid>
       <description></description>
     </item>
     
