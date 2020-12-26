@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SEO with Charan.com</title>
-    <link>https://seowithcharan.com/</link>
-    <description>Recent content on SEO with Charan.com</description>
+    <title>Marketings on SEO with Charan.com</title>
+    <link>https://seowithcharan.com/marketing/</link>
+    <description>Recent content in Marketings on SEO with Charan.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {Charandeep Kapoor, 2020}</copyright>
-    <lastBuildDate>Fri, 25 Dec 2020 20:19:19 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 25 Dec 2020 16:31:19 +0530</lastBuildDate>
     
-	<atom:link href="https://seowithcharan.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seowithcharan.com/marketing/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>What is an IPO?</title>
-      <link>https://seowithcharan.com/ipo/what-is-an-ipo/</link>
-      <pubDate>Fri, 25 Dec 2020 22:23:56 +0530</pubDate>
-      
-      <guid>https://seowithcharan.com/ipo/what-is-an-ipo/</guid>
-      <description>How a YouTube comment made Paytm change its official on Twitter</description>
-    </item>
     
     <item>
       <title>The Power Of A YouTube Comment-BINOD</title>
