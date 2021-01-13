@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fundamentals on The Charandeep Kapoor.com | SEO With Charan</title>
+    <link>https://seowithcharan.com/fundamentals/</link>
+    <description>Recent content in Fundamentals on The Charandeep Kapoor.com | SEO With Charan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Charandeep Kapoor, Jaan, 2020</copyright>
+    <lastBuildDate>Wed, 13 Jan 2021 16:47:25 +0530</lastBuildDate>
+    
+	<atom:link href="https://seowithcharan.com/fundamentals/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1. EPS (Earning Per Share)</title>
+      <link>https://seowithcharan.com/fundamentals/eps/</link>
+      <pubDate>Wed, 13 Jan 2021 16:47:25 +0530</pubDate>
+      
+      <guid>https://seowithcharan.com/fundamentals/eps/</guid>
+      <description>How is an IPO alloted to people? Is it luck? Lottery? What are the different type of people who apply in an IPO? How to maximize my chance to get a allotment?</description>
+    </item>
+    
+    <item>
+      <title>1. EPS (Earning Per Share)</title>
+      <link>https://seowithcharan.com/fundamentals/test/epss/</link>
+      <pubDate>Wed, 13 Jan 2021 16:47:20 +0530</pubDate>
+      
+      <guid>https://seowithcharan.com/fundamentals/test/epss/</guid>
+      <description>How is an IPO alloted to people? Is it luck? Lottery? What are the different type of people who apply in an IPO? How to maximize my chance to get a allotment?</description>
+    </item>
+    
+  </channel>
+</rss>
