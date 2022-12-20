@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Charandeep Kapoor.com</title>
-    <link>https://charandeepkapoor.com/</link>
-    <description>Recent content on The Charandeep Kapoor.com</description>
+    <title>Blogs on The Charandeep Kapoor.com</title>
+    <link>https://charandeepkapoor.com/blog/</link>
+    <description>Recent content in Blogs on The Charandeep Kapoor.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Charandeep Kapoor© {2020}</copyright><atom:link href="https://charandeepkapoor.com/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Charandeep Kapoor© {2020}</copyright><atom:link href="https://charandeepkapoor.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Twitter Feed</title>
       <link>https://charandeepkapoor.com/blog/twitter/</link>
