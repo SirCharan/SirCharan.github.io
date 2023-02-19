@@ -8,22 +8,66 @@
     <language>en-us</language>
     <copyright>Charandeep Kapoor© {2020}</copyright><atom:link href="https://charandeepkapoor.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Twitter Feed</title>
+      <title>1. Understanding Cryptocurrency: A Beginner&#39;s Guide</title>
+      <link>https://charandeepkapoor.com/blog/1-what-is-crypto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://charandeepkapoor.com/blog/1-what-is-crypto/</guid>
+      <description>Curious about cryptocurrency? Discover what it is, how it works, and why it&amp;rsquo;s important for everyone to know about it. Join the revolution and embrace the future of money.</description>
+    </item>
+    
+    <item>
+      <title>2. Understanding the Benefits and Use Cases of Cryptocurrencies in India</title>
+      <link>https://charandeepkapoor.com/blog/2-crypto-finance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://charandeepkapoor.com/blog/2-crypto-finance/</guid>
+      <description>Learn about the various use cases of cryptocurrencies, their benefits in India, and the problems they can solve. Understand how cryptocurrencies can revolutionize financial activities and make informed decisions.</description>
+    </item>
+    
+    <item>
+      <title>3. What is Blockchain Technology: A Comprehensive Beginner&#39;s Guide</title>
+      <link>https://charandeepkapoor.com/blog/3-blockchain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://charandeepkapoor.com/blog/3-blockchain/</guid>
+      <description>Learn about the history and potential use cases of blockchain technology in this comprehensive beginner&amp;rsquo;s guide. Discover how blockchain works, and how it can transform various industries and businesses.</description>
+    </item>
+    
+    <item>
+      <title>4. What is Bitcoin? A Beginner&#39;s Guide to the World&#39;s Most Popular Cryptocurrency</title>
+      <link>https://charandeepkapoor.com/blog/4-bitcoin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://charandeepkapoor.com/blog/4-bitcoin/</guid>
+      <description>Bitcoin is a decentralized digital currency that has revolutionized the way we think about money. In this post, we&amp;rsquo;ll explore the origins of Bitcoin, how it works, and why it&amp;rsquo;s important for everyone to understand.</description>
+    </item>
+    
+    <item>
+      <title>5. What is Ethereum? A Beginner&#39;s Guide to the Revolutionary Blockchain Platform</title>
+      <link>https://charandeepkapoor.com/blog/5-ethereum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://charandeepkapoor.com/blog/5-ethereum/</guid>
+      <description>Discover what Ethereum is, how it differs from Bitcoin, and how it is poised to revolutionize finance. Read on to learn about its creator, use cases, and what&amp;rsquo;s being built on the platform.</description>
+    </item>
+    
+    <item>
+      <title>6. How RBI&#39;s Lakshmi Cryptocurrency Can Change Your Life</title>
+      <link>https://charandeepkapoor.com/blog/6-lakshmi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://charandeepkapoor.com/blog/6-lakshmi/</guid>
+      <description>The Reserve Bank of India&amp;rsquo;s new cryptocurrency Lakshmi has the potential to revolutionize the Indian payments infrastructure. Read on to learn about the problems with the existing payments infrastructure, how Lakshmi can solve them, and how it compares to UPI.</description>
+    </item>
+    
+    <item>
+      <title>7. Twitter Feed</title>
       <link>https://charandeepkapoor.com/blog/twitter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://charandeepkapoor.com/blog/twitter/</guid>
-      <description>Recent Tweets By Charandeep Kapoor
-Tweets by Charandeep Kapoor</description>
-    </item>
-    
-    <item>
-      <title>Youtube Live</title>
-      <link>https://charandeepkapoor.com/blog/youtube-live/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://charandeepkapoor.com/blog/youtube-live/</guid>
-      <description>Kesariya LoFi Live Stream by Sona Bateshar </description>
+      <description>Some of my recent Tweets</description>
     </item>
     
   </channel>
