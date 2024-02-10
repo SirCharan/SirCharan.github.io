@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>crypto on Charandeep Kapoor</title>
+    <link>//charandeepkapoor.com/tags/crypto/</link>
+    <description>Recent content in crypto on Charandeep Kapoor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
+    <atom:link href="//charandeepkapoor.com/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Understanding Cryptocurrency: A Beginner&#39;s Guide</title>
+      <link>//charandeepkapoor.com/crypto/one/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/crypto/one/</guid>
+      <description>Understanding Cryptocurrencies</description>
+    </item>
+    <item>
+      <title>2. Understanding the Benefits and Use Cases of Cryptocurrencies in India</title>
+      <link>//charandeepkapoor.com/crypto/two/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/crypto/two/</guid>
+      <description>Crypto In India</description>
+    </item>
+  </channel>
+</rss>

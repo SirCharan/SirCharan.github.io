@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Account Tracker on Charandeep Kapoor</title>
+    <link>//charandeepkapoor.com/tags/account-tracker/</link>
+    <description>Recent content in Account Tracker on Charandeep Kapoor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
+    <atom:link href="//charandeepkapoor.com/tags/account-tracker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Account Tracker</title>
+      <link>//charandeepkapoor.com/crypto/delta/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/crypto/delta/</guid>
+      <description>This page tracks my Delta Exchange Account</description>
+    </item>
+  </channel>
+</rss>

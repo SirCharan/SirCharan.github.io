@@ -1,0 +1,121 @@
+<h2 id="balance">
+    ///UPDATING///
+</h2>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+
+<script>
+    const API_KEY = 'umRJZmxH6JzMqzKNLKoV68aVeJh8eT';
+    const API_SECRET = '5XJpQyRkFeo2V5eNsaAGtijIKUYCvvMkVWXYye5hZffOzVSu8tF7HMUAUX54';
+    const domain = 'https://api.delta.exchange';
+    const domain_prod = 'https://api.delta.exchange';
+    const API_KEY_PROD = 'a207900b7693435a8fa9230a38195d';
+    const API_SECRET_PROD = '7b6f39dcf660ec1c7c664f612c60410a2bd0c258416b498bf0311f94228f';
+    const user_id = 55500546;
+
+    // if (domain === domain_prod) {
+    //     API_KEY = API_KEY_PROD;
+    //     API_SECRET = API_SECRET_PROD;
+    // }
+
+//     function getTimestamp() {
+//     const now = Date.now() / 1000;
+//     return now
+// }
+
+function generateSignature(method, endpoint, payload) {
+    const timestamp = getTimeStamp();
+    const signature_data = method + timestamp + endpoint + payload;
+
+    // Encode API_SECRET to UTF-8 bytes
+    const secret = CryptoJS.enc.Utf8.parse(API_SECRET);
+
+    // Compute HMAC-SHA256 hash
+    const hash = CryptoJS.HmacSHA256(signature_data, secret).toString(CryptoJS.enc.Hex);
+
+    return [hash, timestamp];
+}
+
+function getTimeStamp() {
+    // Get current timestamp in seconds
+    return Math.floor(Date.now() / 1000).toString();
+}
+
+
+    // function generateSignature(method, endpoint, payload) {
+    //     const timestamp = getTimestamp();
+    //     const signatureData = method + timestamp + endpoint + payload;
+    //     const message = new TextEncoder().encode(signatureData);
+    //     const secret = new TextEncoder().encode(API_SECRET);
+    //     const hash = crypto.subtle.sign("HMAC", secret, message);
+    //     return [hash, timestamp];
+    // }
+
+    async function getWalletBalances() {
+        const method = 'GET';
+        const endpoint = '/v2/wallet/balances';
+        const [signature, timestamp] = generateSignature(method, endpoint, '');
+        const url = `${domain}${endpoint}`;
+        const headers = {
+            'api-key': API_KEY,
+            'timestamp': timestamp,
+            'signature': signature,
+            'User-Agent': 'rest-client',
+            'Content-Type': 'application/json'
+        };
+        const response = await fetch(url, { headers });
+        const data = await response.json();
+        const balanceElement = document.getElementById('balance');
+        if (balanceElement) {
+            balanceElement.innerText = `Wallet Balance: ${JSON.stringify(data.meta.net_equity)}`;
+        }
+        // return data.meta;
+    }
+
+    async function getWalletTransactions() {
+        const method = 'GET';
+        const endpoint = '/v2/wallet/transactions';
+        const [signature, timestamp] = generateSignature(method, endpoint, '');
+        const url = `${domain}${endpoint}`;
+        const headers = {
+            'api-key': API_KEY,
+            'timestamp': timestamp,
+            'signature': signature,
+            'User-Agent': 'rest-client',
+            'Content-Type': 'application/json'
+        };
+        const response = await fetch(url, { headers });
+        const data = await response.json();
+        // console.log(data);
+        return data;
+    }
+
+    async function downloadTransactionsToDataframe() {
+        const transactions = await getWalletTransactions();
+        const df = transactions.result;
+        console.log(df);
+        // return df;
+    }
+
+    async function getSubaccountBalanceTransferHistory() {
+        const method = 'GET';
+        const endpoint = '/v2/wallets/sub_accounts_transfer_history';
+        const [signature, timestamp] = generateSignature(method, endpoint, '');
+        const url = `${domain}${endpoint}`;
+        const headers = {
+            'api-key': API_KEY,
+            'timestamp': timestamp,
+            'signature': signature,
+            'User-Agent': 'rest-client',
+            'Content-Type': 'application/json'
+        };
+        const response = await fetch(url, { headers });
+        const data = await response.json();
+        console.log(data);
+        // return data;
+    }
+
+    // Call getWalletBalances() function when the script loads
+    window.onload = async function() {
+        await getWalletBalances();
+    };
+</script>
