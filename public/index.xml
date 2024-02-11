@@ -4,10 +4,22 @@
     <title>Charandeep Kapoor</title>
     <link>//charandeepkapoor.com/</link>
     <description>Recent content on Charandeep Kapoor</description>
+    <image>
+      <title>Charandeep Kapoor</title>
+      <url>https://charandeepkapoor.com/images/dp.png</url>
+      <link>https://charandeepkapoor.com/images/dp.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
     <atom:link href="//charandeepkapoor.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Call Option Basics</title>
+      <link>//charandeepkapoor.com/options/call/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/call/</guid>
+      <description>Exploring Call Option Basics in the Crypto Market</description>
+    </item>
     <item>
       <title>Delta Exchange Account Tracker</title>
       <link>//charandeepkapoor.com/crypto/delta/</link>
@@ -16,18 +28,88 @@
       <description>This page tracks my Delta Exchange Account</description>
     </item>
     <item>
-      <title>1. Understanding Cryptocurrency: A Beginner&#39;s Guide</title>
+      <title>1. Unraveling the World of Cryptocurrency: An Introduction</title>
       <link>//charandeepkapoor.com/crypto/one/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>//charandeepkapoor.com/crypto/one/</guid>
-      <description>Understanding Cryptocurrencies</description>
+      <description>Cryptocurrency: The digital revolution reshaping finance. Explore its essence and significance.</description>
     </item>
     <item>
-      <title>2. Understanding the Benefits and Use Cases of Cryptocurrencies in India</title>
+      <title>Put Option Basics</title>
+      <link>//charandeepkapoor.com/options/put/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/put/</guid>
+      <description>Exploring Put Option Basics in the Crypto Market</description>
+    </item>
+    <item>
+      <title>2. Exploring Blockchain Technology: A Comprehensive Guide</title>
       <link>//charandeepkapoor.com/crypto/two/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>//charandeepkapoor.com/crypto/two/</guid>
-      <description>Crypto In India</description>
+      <description>Blockchain: Transforming industries with decentralized, transparent, and secure ledger technology.</description>
+    </item>
+    <item>
+      <title>3. Unraveling the Mysteries of Bitcoin</title>
+      <link>//charandeepkapoor.com/crypto/three/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/crypto/three/</guid>
+      <description>Blockchain: Transforming industries with decentralized, transparent, and secure ledger technology.</description>
+    </item>
+    <item>
+      <title>Option Terms You Need to Know</title>
+      <link>//charandeepkapoor.com/options/jargons/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/jargons/</guid>
+      <description>Demystifying Basic Option Jargons in the Crypto Market</description>
+    </item>
+    <item>
+      <title>Summarizing Call &amp; Put Options</title>
+      <link>//charandeepkapoor.com/options/summary/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/summary/</guid>
+      <description>Summarizing Call and Put Options in the Crypto Market</description>
+    </item>
+    <item>
+      <title>4. Exploring Altcoins and Tokens: A Comprehensive Overview</title>
+      <link>//charandeepkapoor.com/crypto/four/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/crypto/four/</guid>
+      <description>Altcoins and Tokens: Diversifying cryptocurrency landscape with unique functionalities and applications.</description>
+    </item>
+    <item>
+      <title>What is ITM or OTM?</title>
+      <link>//charandeepkapoor.com/options/itmotm/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/itmotm/</guid>
+      <description>Understanding the Moneyness of an Option Contract in the Crypto Market</description>
+    </item>
+    <item>
+      <title>5. Cryptocurrency and the Future: Navigating the Next Frontier</title>
+      <link>//charandeepkapoor.com/crypto/five/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/crypto/five/</guid>
+      <description>Cryptocurrency: A transformative force shaping finance, society, and technological innovation.</description>
+    </item>
+    <item>
+      <title>What is Delta?</title>
+      <link>//charandeepkapoor.com/options/delta/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/delta/</guid>
+      <description>Understanding Delta: An Essential Option Greek in Crypto Trading</description>
+    </item>
+    <item>
+      <title>What is Gamma?</title>
+      <link>//charandeepkapoor.com/options/gamma/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/gamma/</guid>
+      <description>Understanding Gamma: Another Crucial Option Greek in Crypto Trading</description>
+    </item>
+    <item>
+      <title>What is Theta?</title>
+      <link>//charandeepkapoor.com/options/gamma-copy/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/gamma-copy/</guid>
+      <description>Understanding Theta: Most Crucial Option Greek in Crypto Trading</description>
     </item>
     <item>
       <title>My 1st post</title>

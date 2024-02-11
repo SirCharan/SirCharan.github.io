@@ -4,6 +4,11 @@
     <title>Tags on Charandeep Kapoor</title>
     <link>//charandeepkapoor.com/tags/</link>
     <description>Recent content in Tags on Charandeep Kapoor</description>
+    <image>
+      <title>Charandeep Kapoor</title>
+      <url>https://charandeepkapoor.com/images/dp.png</url>
+      <link>https://charandeepkapoor.com/images/dp.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
@@ -27,6 +32,13 @@
       <link>//charandeepkapoor.com/tags/first/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>//charandeepkapoor.com/tags/first/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>options</title>
+      <link>//charandeepkapoor.com/tags/options/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/tags/options/</guid>
       <description></description>
     </item>
   </channel>

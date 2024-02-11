@@ -25,11 +25,12 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    # image: "/images/delta.svg" # image path/url
+    # image: "https://www.delta.exchange/small-logo.svg" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
+    responsiveImages: false
 editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
@@ -38,3 +39,4 @@ editPost:
 
 {{< balance >}}
 {{< positions >}}
+<!-- {{< comments >}} -->

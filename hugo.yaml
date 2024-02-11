@@ -18,17 +18,18 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Charandeep Kapoor
-  description: "This is the website of **Charandeep Kapoor, B.Tech, IIT Kanpur**. I'm a crypto derivatives trader, stock market investor, AMFI registered mutual fund advisor and a Youtuber"
+  description: "This is the website of Charandeep Kapoor, B.Tech, IIT Kanpur. I'm a crypto derivatives trader, stock market investor, AMFI registered mutual fund advisor and a Youtuber"
   keywords: [Crypto, Stock Market, Investing, Trading]
   author: Charandeep Kapoor
   # author: ["Me", "You"] # multiple authors
-  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["https://charandeepkapoor.com/images/dp.png"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: light # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
   ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter", "whatsapp"]
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -38,11 +39,11 @@ params:
   hidemeta: false
   hideSummary: false
   showtoc: true
-  tocopen: false
+  tocopen: true
 
   label:
     text: "Charandeep Kapoor"
-    icon: "images/coding.png"
+    icon: "images/dp.png"
     iconHeight: 35
 
   # profile-mode
@@ -59,7 +60,8 @@ params:
         url: crypto
       - name: Stock Market
         url: stock
-
+      - name: Basics of Options
+        url: options
   # home-info mode
   homeInfoParams:
     Title: "Welcome! \U0001F44B"
@@ -116,14 +118,14 @@ menu:
       name: About
       url: /about/
       weight: 4
-    # - identifier: crypto
-    #   name: Crypto
-    #   url: /crypto/
-    #   weight: 1
-    # - identifier: stockmarket
-    #   name: Stock Market
-    #   url: /stocks/
-    #   weight: 2
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 1
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 2
     - identifier: infographics
       name: Infographics
       url: /infographics/
@@ -146,3 +148,14 @@ menu:
 #         guessSyntax: true
 #         lineNos: true
 #         style: monokai
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+services:
+  disqus:
+    shortname: seo-with-charan
+
+

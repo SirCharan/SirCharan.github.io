@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Options on Charandeep Kapoor</title>
+    <link>//charandeepkapoor.com/options/</link>
+    <description>Recent content in Options on Charandeep Kapoor</description>
+    <image>
+      <title>Charandeep Kapoor</title>
+      <url>https://charandeepkapoor.com/images/dp.png</url>
+      <link>https://charandeepkapoor.com/images/dp.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
+    <atom:link href="//charandeepkapoor.com/options/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Call Option Basics</title>
+      <link>//charandeepkapoor.com/options/call/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/call/</guid>
+      <description>Exploring Call Option Basics in the Crypto Market</description>
+    </item>
+    <item>
+      <title>Put Option Basics</title>
+      <link>//charandeepkapoor.com/options/put/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/put/</guid>
+      <description>Exploring Put Option Basics in the Crypto Market</description>
+    </item>
+    <item>
+      <title>Option Terms You Need to Know</title>
+      <link>//charandeepkapoor.com/options/jargons/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/jargons/</guid>
+      <description>Demystifying Basic Option Jargons in the Crypto Market</description>
+    </item>
+    <item>
+      <title>Summarizing Call &amp; Put Options</title>
+      <link>//charandeepkapoor.com/options/summary/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/summary/</guid>
+      <description>Summarizing Call and Put Options in the Crypto Market</description>
+    </item>
+    <item>
+      <title>What is ITM or OTM?</title>
+      <link>//charandeepkapoor.com/options/itmotm/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/itmotm/</guid>
+      <description>Understanding the Moneyness of an Option Contract in the Crypto Market</description>
+    </item>
+    <item>
+      <title>What is Delta?</title>
+      <link>//charandeepkapoor.com/options/delta/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/delta/</guid>
+      <description>Understanding Delta: An Essential Option Greek in Crypto Trading</description>
+    </item>
+    <item>
+      <title>What is Gamma?</title>
+      <link>//charandeepkapoor.com/options/gamma/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/gamma/</guid>
+      <description>Understanding Gamma: Another Crucial Option Greek in Crypto Trading</description>
+    </item>
+    <item>
+      <title>What is Theta?</title>
+      <link>//charandeepkapoor.com/options/gamma-copy/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/options/gamma-copy/</guid>
+      <description>Understanding Theta: Most Crucial Option Greek in Crypto Trading</description>
+    </item>
+  </channel>
+</rss>
