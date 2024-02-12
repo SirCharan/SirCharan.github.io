@@ -62,6 +62,8 @@ params:
         url: stock
       - name: Basics of Options
         url: options
+      - name: Option Strategies
+        url: option-strategies
   # home-info mode
   homeInfoParams:
     Title: "Welcome! \U0001F44B"

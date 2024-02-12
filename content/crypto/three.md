@@ -1,7 +1,7 @@
 ---
 title: "3. Unraveling the Mysteries of Bitcoin"
 date: 2020-09-15T11:30:03+00:00
-weight: 3
+weight: 4
 # aliases: ["/first"]
 tags: ["crypto"]
 author: "Me"
@@ -11,7 +11,7 @@ TocOpen: true
 draft: false
 hidemeta: false
 comments: true
-description: "Blockchain: Transforming industries with decentralized, transparent, and secure ledger technology."
+description: "BBitcoin: Decentralized digital currency revolutionizing finance with blockchain technology."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false

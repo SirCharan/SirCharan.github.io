@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>option strategies on Charandeep Kapoor</title>
+    <link>//charandeepkapoor.com/tags/option-strategies/</link>
+    <description>Recent content in option strategies on Charandeep Kapoor</description>
+    <image>
+      <title>Charandeep Kapoor</title>
+      <url>https://charandeepkapoor.com/images/dp.png</url>
+      <link>https://charandeepkapoor.com/images/dp.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
+    <atom:link href="//charandeepkapoor.com/tags/option-strategies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bull Call Spread</title>
+      <link>//charandeepkapoor.com/option-strategies/bull-call/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/option-strategies/bull-call/</guid>
+      <description>Mastering Bull Call Spreads in Crypto Markets: A Comprehensive Guide</description>
+    </item>
+    <item>
+      <title>Bull Put Spread</title>
+      <link>//charandeepkapoor.com/option-strategies/bull-put/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/option-strategies/bull-put/</guid>
+      <description>Exploring Bull Put Spreads in Crypto Markets: A Comprehensive Guide</description>
+    </item>
+    <item>
+      <title>Bear Call Spread</title>
+      <link>//charandeepkapoor.com/option-strategies/bear-call/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/option-strategies/bear-call/</guid>
+      <description>Exploring Bear Call Spreads in Crypto Markets: A Comprehensive Guide</description>
+    </item>
+    <item>
+      <title>Bear Put Spread</title>
+      <link>//charandeepkapoor.com/option-strategies/bear-put/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/option-strategies/bear-put/</guid>
+      <description>Unveiling Bear Put Spreads in Crypto Markets: A Comprehensive Guide</description>
+    </item>
+    <item>
+      <title>Long Straddle</title>
+      <link>//charandeepkapoor.com/option-strategies/long-straddle/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/option-strategies/long-straddle/</guid>
+      <description>Unveiling the Long Straddle Strategy in Crypto Markets: A Comprehensive Guide</description>
+    </item>
+    <item>
+      <title>Short Straddle</title>
+      <link>//charandeepkapoor.com/option-strategies/short-straddle/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/option-strategies/short-straddle/</guid>
+      <description>UUnveiling the Short Straddle Strategy in Crypto Markets: A Comprehensive Guide</description>
+    </item>
+  </channel>
+</rss>
