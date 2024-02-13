@@ -83,6 +83,6 @@ The net premium paid for the call ratio spread is $150 - $100 = $50.
    - Implement call ratio spreads in stable or sideways markets where the underlying asset's price is expected to gradually increase without significant volatility.
 
 3. **Ahead of Catalyst Events:**
-   - Trade call ratio spreads ahead of anticipated catalyst events such as earnings reports, product launches, or significant announcements that could trigger bullish sentiment in the market.
+   - Trade call ratio spreads ahead of anticipated catalyst events such as interest rate hikes, inflation data or other significant announcements that could trigger bullish sentiment in the market.
 
 In conclusion, mastering the call ratio spread strategy in crypto markets provides traders with a versatile tool to profit from moderate bullish price movements while managing risk effectively. By understanding its mechanics, advantages, drawbacks, and optimal trading conditions, traders can enhance their trading strategies and navigate the dynamic crypto landscape with confidence. However, as with any trading strategy, thorough research, market analysis, and risk management are essential for success.
