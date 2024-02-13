@@ -1,169 +1,255 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-	<loc>https://charandeepkapoor.com/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://charandeepkapoor.com/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/archives/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>http://charandeepkapoor.com/archives/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/search/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>http://charandeepkapoor.com/search/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/call/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/infographics/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/put/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/about/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/jargons/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/crypto</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/summary/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/stock</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/itmotm/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/delta/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/call/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/gamma/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/put/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/theta/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/jargons/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/bull-call/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/summary/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/bear-call/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/itmotm/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/bear-put/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/delta/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/bull-put/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/gamma/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/long-straddle/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/theta/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/short-straddle/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/bull-call/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/call-ratio/</loc>
-	<lastmod>2024-02-13T22:29:51+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/bear-call/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/crypto/</loc>
-	<lastmod>2024-02-13T22:29:54+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>http://charandeepkapoor.com/options/bear-put/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/crypto/delta/</loc>
-	<lastmod>2024-02-13T22:29:54+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/bull-put/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/crypto/one/</loc>
-	<lastmod>2024-02-13T22:29:54+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/long-straddle/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/crypto/two/</loc>
-	<lastmod>2024-02-13T22:29:54+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/short-straddle/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/crypto/three/</loc>
-	<lastmod>2024-02-13T22:29:54+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/call-ratio/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/crypto/four/</loc>
-	<lastmod>2024-02-13T22:29:54+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/crypto/delta/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/options/</loc>
-	<lastmod>2024-02-13T22:29:54+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>http://charandeepkapoor.com/crypto/one/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/tags/options/</loc>
-	<lastmod>2024-02-13T22:29:55+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/crypto/two/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/tags/option-strategies/</loc>
-	<lastmod>2024-02-13T22:29:58+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/crypto/three/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/tags/delta-exchange-account-tracker/</loc>
-	<lastmod>2024-02-13T22:29:59+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/crypto/four/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/tags/crypto/</loc>
-	<lastmod>2024-02-13T22:29:59+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/crypto/page/2/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/tags/</loc>
-	<lastmod>2024-02-13T22:30:01+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>http://charandeepkapoor.com/options/page/2/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/crypto/five/</loc>
-	<lastmod>2024-02-13T22:30:01+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/options/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/tags/first/</loc>
-	<lastmod>2024-02-13T22:30:02+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>http://charandeepkapoor.com/tags/options/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 <url>
-	<loc>https://charandeepkapoor.com/post/</loc>
-	<lastmod>2024-02-13T22:30:02+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>http://charandeepkapoor.com/tags/option-strategies/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
+</url>
+<url>
+  <loc>http://charandeepkapoor.com/crypto/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
+</url>
+<url>
+  <loc>http://charandeepkapoor.com/tags/delta-exchange-account-tracker/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
+</url>
+<url>
+  <loc>http://charandeepkapoor.com/tags/crypto/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
+</url>
+<url>
+  <loc>http://charandeepkapoor.com/crypto/five/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
+</url>
+<url>
+  <loc>http://charandeepkapoor.com/options/page/3/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
+</url>
+<url>
+  <loc>http://charandeepkapoor.com/tags/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
+</url>
+<url>
+  <loc>http://charandeepkapoor.com/tags/options/page/2/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
+</url>
+<url>
+  <loc>http://charandeepkapoor.com/tags/option-strategies/page/2/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
+</url>
+<url>
+  <loc>http://charandeepkapoor.com/tags/first/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-02-14</lastmod>
 </url>
 </urlset>
