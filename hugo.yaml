@@ -56,14 +56,12 @@ params:
     imageHeight: 250
     imageTitle: "This is me!"
     buttons:
-      - name: Crypto
+      - name: Basics of Crypto
         url: crypto
       - name: Stock Market
         url: stock
       - name: Basics of Options
         url: options
-      - name: Option Strategies
-        url: option-strategies
   # home-info mode
   homeInfoParams:
     Title: "Welcome! \U0001F44B"
@@ -159,5 +157,3 @@ outputs:
 services:
   disqus:
     shortname: seo-with-charan
-
-

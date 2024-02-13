@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: true
 description: "Exploring Put Option Basics in the Crypto Market"
-canonicalURL: "https://canonical.url/to/page"
+# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

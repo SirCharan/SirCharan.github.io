@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: true
 description: "Altcoins and Tokens: Diversifying cryptocurrency landscape with unique functionalities and applications."
-canonicalURL: "https://canonical.url/to/page"
+# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

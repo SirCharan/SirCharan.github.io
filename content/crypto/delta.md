@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: true
 description: "This page tracks my Delta Exchange Account"
-canonicalURL: "https://canonical.url/to/page"
+# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

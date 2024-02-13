@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: true
 description: "Understanding the Moneyness of an Option Contract in the Crypto Market"
-canonicalURL: "https://canonical.url/to/page"
+# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

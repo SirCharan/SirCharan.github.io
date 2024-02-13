@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: true
 description: "Cryptocurrency: The digital revolution reshaping finance. Explore its essence and significance."
-canonicalURL: "https://canonical.url/to/page"
+# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
