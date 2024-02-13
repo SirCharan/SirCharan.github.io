@@ -1,6 +1,6 @@
 ---
 title: "3. Unraveling the Mysteries of Bitcoin"
-date: 2020-09-15T11:30:03+00:00
+date: 2024-01-15T11:30:03+00:00
 weight: 4
 # aliases: ["/first"]
 tags: ["crypto"]

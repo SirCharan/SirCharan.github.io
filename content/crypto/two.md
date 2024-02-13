@@ -1,6 +1,6 @@
 ---
 title: "2. Exploring Blockchain Technology: A Comprehensive Guide"
-date: 2020-09-15T11:30:03+00:00
+date: 2024-01-15T11:30:03+00:00
 weight: 3
 # aliases: ["/first"]
 tags: ["crypto"]

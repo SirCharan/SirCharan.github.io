@@ -11,19 +11,33 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jan 2024 11:30:03 +0000</lastBuildDate>
     <atom:link href="//charandeepkapoor.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>option strategies</title>
+      <link>//charandeepkapoor.com/tags/option-strategies/</link>
+      <pubDate>Mon, 29 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/tags/option-strategies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>options</title>
+      <link>//charandeepkapoor.com/tags/options/</link>
+      <pubDate>Mon, 29 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>//charandeepkapoor.com/tags/options/</guid>
+      <description></description>
+    </item>
     <item>
       <title>crypto</title>
       <link>//charandeepkapoor.com/tags/crypto/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <pubDate>Mon, 15 Jan 2024 11:30:03 +0000</pubDate>
       <guid>//charandeepkapoor.com/tags/crypto/</guid>
       <description></description>
     </item>
     <item>
       <title>Delta Exchange Account Tracker</title>
       <link>//charandeepkapoor.com/tags/delta-exchange-account-tracker/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <pubDate>Mon, 15 Jan 2024 11:30:03 +0000</pubDate>
       <guid>//charandeepkapoor.com/tags/delta-exchange-account-tracker/</guid>
       <description></description>
     </item>
@@ -32,20 +46,6 @@
       <link>//charandeepkapoor.com/tags/first/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>//charandeepkapoor.com/tags/first/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>option strategies</title>
-      <link>//charandeepkapoor.com/tags/option-strategies/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>//charandeepkapoor.com/tags/option-strategies/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>options</title>
-      <link>//charandeepkapoor.com/tags/options/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>//charandeepkapoor.com/tags/options/</guid>
       <description></description>
     </item>
   </channel>

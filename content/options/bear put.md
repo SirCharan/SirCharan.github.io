@@ -1,6 +1,6 @@
 ---
 title: "Bear Put Spread"
-# date: 2020-09-15T11:30:03+00:00
+date: 2024-01-29T11:30:03+00:00
 weight: 11
 # aliases: ["/first"]
 tags: ["option strategies"]
@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: true
 description: "Unveiling Bear Put Spreads in Crypto Markets: A Comprehensive Guide"
-canonicalURL: "https://canonical.url/to/page"
+# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

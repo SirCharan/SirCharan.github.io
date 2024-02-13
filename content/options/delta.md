@@ -1,6 +1,6 @@
 ---
 title: "What is Delta?"
-date: 2020-09-15T11:30:03+00:00
+date: 2024-01-29T11:30:03+00:00
 weight: 6
 # aliases: ["/first"]
 tags: ["options"]
