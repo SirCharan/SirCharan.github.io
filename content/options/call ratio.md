@@ -1,5 +1,5 @@
 ---
-title: "Call Ratio Spread"
+title: "Call Ratio Spread (With Video)"
 date: 2024-01-29T11:30:03+00:00
 weight: 15
 # aliases: ["/first"]
@@ -37,6 +37,10 @@ editPost:
 ---
 
 # Unveiling the Call Ratio Spread Strategy in Crypto Markets: A Comprehensive Guide
+
+Example trade with 1:6 risk to reward trade setup in BTC & ETH with $1000 profit
+
+{{< youtube id="WRDgwly47u4" autoplay="true" >}}
 
 In the dynamic realm of cryptocurrency trading, where volatility and price fluctuations are commonplace, traders seek strategies that offer potential profits while managing risk effectively. The call ratio spread strategy emerges as a compelling approach, allowing traders to capitalize on moderate bullish price movements while mitigating downside risk. In this comprehensive guide, we'll delve into the intricacies of the call ratio spread strategy in the crypto domain, elucidating its mechanics, presenting a trading example using Ethereum, discussing its advantages and drawbacks, and identifying opportune moments for its implementation.
 
