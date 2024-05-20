@@ -122,10 +122,10 @@ menu:
     #   name: Archives
     #   url: /archives/
     #   weight: 1
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 2
+    # - identifier: search
+    #   name: Search
+    #   url: /search/
+    #   weight: 2
     # - identifier: infographics
     #   name: Infographics
     #   url: /infographics/
